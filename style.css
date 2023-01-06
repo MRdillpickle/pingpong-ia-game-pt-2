@@ -1,0 +1,25 @@
+.footer{
+    width: 100%;
+    transition-duration: 1s;
+    position: fixed;
+    bottom: 0;
+    background-color: aqua;
+    font-style: italic;
+    font-weight: bolder;
+    height: 50px;
+    overflow: hidden;
+}
+.footer:hover{
+    height: 100px;
+}
+#button{
+    background-color: aqua;
+    position: fixed;
+    bottom: 10px;
+    text-align: center;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 1000px;
+    font-size: 50px;
+    margin-left: 48%;
+}

@@ -1,0 +1,37 @@
+<!--created by prashant shukla-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ping Pong</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+     
+        <link rel="stylesheet" href="style.css">
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/addons/p5.sound.min.js"></script>   
+
+    </head>
+    <body background="background1.jpg">
+<center>
+    <h1 class="headding btn btn-primary">AI ping Pong <button class="btn btn-primary " data-modal="myModal" data-target="#myModal">Instructions!</button></h1>
+    <button class="btn btn-success" onclick="startGame();"></button>
+    <button class="btn btn-danger" onclick="reset();"></button>
+    <h3 class="status">Status: Not Ready</h3>
+    <div id="canvas"></div>
+    <div id="myModal" data-target="myModal">
+        <div class="modal-heading">
+            Instructions
+        </div>
+        <div class="modal-content">
+
+        </div>
+    </div>
+    <div class="circle" id="button">_^_</div>
+    <footer class="footer">Ping-Pong Game<br><br><br>By: Saatesh Janki</footer>
+</center>
+        <script src="main.js"></script>
+    </body>
+</html>
